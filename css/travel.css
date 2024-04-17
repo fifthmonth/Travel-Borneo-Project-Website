@@ -1,0 +1,98 @@
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #00444f;
+}
+
+/* image */
+.imagecontainer {
+  position: relative;
+  display: inline-block;
+}
+
+.imagecontainer img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* attribute for image */
+.bottom-right {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  font-size: 10px;
+  background-color: rgba(3, 3, 3, 0.3);
+  color: #ffffff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #012930;
+}
+
+main > div {
+  background-color: #cbe4dc;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* colour the text of links */
+main > div > a:link {
+  color: #00444f;
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* Change the colour of links on hover using mouse */
+main > div > a:hover {
+  background-color: #00444f;
+  color: #cbe4dc;
+}
+
+/* Change the color of links on focus using tab button */
+main > div > a:focus {
+  background-color: #00444f;
+  color: #ffffff;
+  outline: none;
+}
+
+#container2 {
+  grid-area: area2;
+}
+
+#container3 {
+  grid-area: area3;
+}
+
+main {
+  background-color: #8fc6b5;
+  display: grid;
+  grid-template-areas:
+  '.'
+  'area2'
+  'area2'
+    'area3'
+    'area3'
+    'area3';
+  
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  main {
+    grid-template-areas:
+    '.     area3 '
+    'area2 area3 '
+    'area2 area3 ';
+  }
+
+}
