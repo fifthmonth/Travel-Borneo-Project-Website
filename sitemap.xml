@@ -3,21 +3,21 @@
 	<url>
 		<loc>http://www.travelborneo.com</loc>
 		<priority>1.00</priority>
-		<lastmod>2024-04-18</lastmod>
-	</url>
-	<url>
-		<loc>http://www.travelborneo.com/travel.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-18</lastmod>
-	</url>
-	<url>
-		<loc>http://www.travelborneo.com/photos.html</loc>
-		<priority>0.50</priority>
-		<lastmod>2024-04-18</lastmod>
+		<lastmod>2024-04-19</lastmod>
 	</url>
 	<url>
 		<loc>http://www.travelborneo.com/contact.html</loc>
 		<priority>0.50</priority>
-		<lastmod>2024-04-18</lastmod>
+		<lastmod>2024-04-19</lastmod>
+	</url>
+	<url>
+		<loc>http://www.travelborneo.com/photos.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-19</lastmod>
+	</url>
+	<url>
+		<loc>http://www.travelborneo.com/travel.html</loc>
+		<priority>0.50</priority>
+		<lastmod>2024-04-19</lastmod>
 	</url>
 </urlset>

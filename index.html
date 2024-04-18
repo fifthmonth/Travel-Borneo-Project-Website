@@ -15,8 +15,8 @@
     <body>
         <header>
             <h1>Selamat Datang ke Borneo</h1> 
-            <label for="hamburger_checkbox">
-                <img id="hamburger_image" src="images/hamburger-menu.svg" alt="Expand and collapse menu.">
+            <label for="hamburger_checkbox" class="visuallyhidden">.
+                <img id="hamburger_image" src="images/hamburger-menu.svg" alt="Expand and collapse menu">
             </label>
             <input id="hamburger_checkbox" type="checkbox">
             <nav>
@@ -39,14 +39,12 @@
                     srcset="images/480w/background_tropical_island.png 480w,
                             images/960w/background_tropical_island.png 960w,
                             images/1920w/background_tropical_island.png 1920w,
-                            images/3840w/background_tropical_island.png 3840w,
-                            images/7680w/bbackground_tropical_island.png 7680w"
+                            images/3840w/background_tropical_island.png 3840w"
                             sizes="(max-width: 480px) 480px,
                             (max-width: 960px) 960px,
                             (max-width: 1920px) 1920px,
-                            (max-width: 3840px) 3840px,
-                            (max-width: 7680px) 7680px"
-                            src="images/7680w/background_tropical_island.png"
+                            (max-width: 3840px) 3840px"
+                            src="images/3840w/background_tropical_island.png"
                     title="Selamat Datang ke Borneo"
                     alt="Tropical Island in Borneo">
                 <div class="imagecontainer">
@@ -66,7 +64,7 @@
         </main>
     
         <footer>
-            <p1>&copy; Borneo Island Travels</p1>      
+            <div class="foottext">&copy; Borneo Island Travels</div>    
         </footer>
     
     </body>
