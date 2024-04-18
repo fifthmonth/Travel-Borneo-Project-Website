@@ -23,7 +23,7 @@ h2 {
   position: absolute;
   bottom: 0px;
   right: 0px;
-  font-size: 10px;
+  font-size: 12px;
   background-color: rgba(3, 3, 3, 0.3);
   color: #ffffff;
   padding: 10px 20px;
@@ -39,7 +39,7 @@ main > div {
   background-color: #cbe4dc;
   border-radius: 10px;
   padding: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 /* colour the text of links */

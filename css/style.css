@@ -20,7 +20,7 @@ header {
   #hamburger_checkbox {
     display: none;
   }
-  
+
   /* Style the image we use as a label for the hamburger menu checkbox */
   #hamburger_image {
     background-color: #cbe4dc;
@@ -63,12 +63,12 @@ header {
     color: #8fc6b5;							
     float: left;
     font-size: 17px;
-    padding: 45px 20px;
+    padding: 45px 18px;
     text-align: center;
     text-decoration: none;
     width: 100%;
   }
-  
+
   
   /* Change the color of links on hover using mouse */
   nav a:hover {
@@ -85,8 +85,8 @@ header {
   
   /* Change the color of the active/current link */
   .active_nav {
-    background-color: #2e868b;
-    color: white;
+    background-color: #cbe4dc;
+    color: #012930;
   }
 
   
@@ -97,6 +97,14 @@ footer {
 	text-align: center;
 	width: 100%;
 }
+
+.foottext {
+  text-align: center;
+  font-family: 'Times New Roman', Times;
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+}
   
    /* For desktop: */
   @media only screen and (min-width: 768px) {
@@ -106,6 +114,18 @@ footer {
           display: none;
         }
   
+        .visuallyhidden {
+          color: white;
+          border: 0;
+          clip: rect(0 0 0 0);
+          height: 1px;
+          margin: -1px;
+          overflow: hidden;
+          padding: 0;
+          position: absolute;
+          width: 1px;
+        }
+
         /* Show the navigation links... even if the hamburger menu checkbox is not selected (menu open) */
         input[id="hamburger_checkbox"]:not(:checked) + nav {
           display:block
@@ -114,7 +134,7 @@ footer {
         /* Style the Borneo heading */
         h1 {
           text-align: left;
-          width: 422px;
+          width: 428px;
         }
   
         /* Style the navigation bar */

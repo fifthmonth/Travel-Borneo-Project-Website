@@ -35,8 +35,8 @@ aside a:focus {
   outline: none;
 }
 
-body p {
-	text-align: justify;
+p {
+	text-align: left;
 }
 
 article {
@@ -78,9 +78,10 @@ article a:focus {
 /* Bottom right text */
 .bottom-right {
 	position: absolute;
+	background-color: black;
 	bottom: 8px;
 	right: 16px;
-	font-size: 10px;
+	font-size: 12px;
   }
 
 
